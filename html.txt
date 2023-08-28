@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Invoice Template Design</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="invoice_wrapper">
+		<div class="header">
+			<div class="logo_invoice_wrap">
+				<div class="logo_sec">
+					<img src="./logo/Capture.JPG" alt="code logo">
+				</div>
+				<div class="invoice_sec">
+					<p class="invoice bold">INVOICE</p>
+					<p class="invoice_no">
+						<span class="bold">Invoice:
+						</span>
+						<span>
+                        </span>
+					</p>
+					<p class="space"><span class="sp">   </span>   </p>
+					<p>   </p>
+					<p class="date">
+						<span class="bold">Date:</span>
+						<span></span>
+					</p>
+				</div>
+			</div>
+			<div class="bill_total_wrap">
+				<div class="bill_sec">
+					<p class="bold name">Bill To:</p> 
+	          		<p class="bold name">Name:</p>
+			        <span class="bold name">
+			           Address:<br/>
+			           Phone number:
+			        </span>
+				</div>
+				<div class="total_wrap">
+					<p>Total Due</p>
+	          		<p class="bold price"></p>
+				</div>
+			</div>
+		</div>
+		<div class="body">
+			<div class="main_table">
+				<div class="table_header">
+					<div class="row">
+						<div class="col col_no">NO.</div>  
+						<div class="col col_des">ITEM DESCRIPTION</div>
+						<div class="col col_price">PRICE</div>
+						<div class="col col_qty">QTY</div>
+						<div class="col col_total">TOTAL</div>
+					</div>
+				</div>
+				<div class="table_body">
+					<div class="row">
+						<div class="col col_no">
+							<p></p>
+						</div>
+						<div class="col col_des">
+							<p class="bold"></p>
+							<p></p>
+						</div>
+						<div class="col col_price">
+							<p></p>
+						</div>
+						<div class="col col_qty">
+							<p></p>
+						</div>
+						<div class="col col_total">
+							<p></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col_no">
+							<p></p>
+						</div>
+						<div class="col col_des">
+							<p class="bold"></p>
+							<p></p>
+						</div>
+						<div class="col col_price">
+							<p></p>
+						</div>
+						<div class="col col_qty">
+							<p></p>
+						</div>
+						<div class="col col_total">
+							<p></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col_no">
+							<p></p>
+						</div>
+						<div class="col col_des">
+							<p class="bold"></p>
+							<p></p>
+						</div>
+						<div class="col col_price">
+							<p></p>
+						</div>
+						<div class="col col_qty">
+							<p></p>
+						</div>
+						<div class="col col_total">
+							<p></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col_no">
+							<p></p>
+						</div>
+						<div class="col col_des">
+							<p class="bold"></p>
+							<p></p>
+						</div>
+						<div class="col col_price">
+							<p></p>
+						</div>
+						<div class="col col_qty">
+							<p></p>
+						</div>
+						<div class="col col_total">
+							<p></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col_no">
+							<p></p>
+						</div>
+						<div class="col col_des">
+							<p class="bold"></p>
+							<p></p>
+						</div>
+						<div class="col col_price">
+							<p></p>
+						</div>
+						<div class="col col_qty">
+							<p></p>
+						</div>
+						<div class="col col_total">
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="paymethod_grandtotal_wrap">
+				<div class="paymethod_sec">
+					<div class="bold" id="total">Total Amount</div>
+					
+					
+					<div class="Amount-in-words">
+						<p class="bold">Amount in words:</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			
+			<p class="bold">Signature</p>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
